@@ -1,0 +1,212 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    # about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Agrim Sharma
+    tagline: Physicist • Coder
+    avatar: myprofile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: agrimsharma[at]iisc.ac.in
+    phone: 
+    timezone: #India Standard Time (IST)
+    citizenship: 
+    website: agrimsharmaphd.github.io/online-cv #do not add http://
+    linkedin: 
+    xing: 
+    github: agrimsharmaphd
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: #'@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: "assets/Resume_Agrim_Sharma_IISc_online_cv.pdf"
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Professional
+
+        - idiom: हिन्दी
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Nonlinear Optics
+          link:
+
+        - item: Real-time GW method
+          link:
+
+        - item: Python
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I'm a second year PhD candidate at the Department of Physics, Indian Institute of Science, Bengaluru. 
+      I work primarily on computational methods for ab-initio electronic structure calculations.
+education:
+    title: Education
+    info:
+      - degree: PhD in Theoretical Physics
+        university: Indian Institute of Science
+        time: 2022 - Present
+        details: 
+      - degree: MSc in Physics
+        university: Indian Institute of Science
+        time: 2021 - 2022
+        details: 
+      - degree: BS (Research) in Physics
+        university: Indian Institute of Science
+        time: 2017 - 2021
+        details: |
+            - Major in Physics
+            - Minor in Mathematics
+
+# experiences:
+#     title: Experiences
+#     info:
+#       - role: Lead Developer
+#         time: 2015 - Present
+#         company: Startup Hubs, San Francisco
+#         details: |
+#           Describe your role here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#           Cum sociis natoque penatibus et magnis dis parturient montes,
+#           nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#           pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+#           enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+#           error sit voluptatem accusantium doloremque laudantium, totam rem
+#           aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+#           architecto beatae vitae dicta sunt explicabo.
+#             - Bullet point
+#             - Bullet point
+#       - role: Senior Software Engineer
+#         time: 2014 - 2015
+#         company: Google, London
+#         details: |
+#           Describe your role here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#           Cum sociis natoque penatibus et magnis dis parturient montes,
+#           nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#           pellentesque eu, pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
+#       - role: UI Developer
+#         time: 2012 - 2014
+#         company: Amazon, London
+#         details: |
+#           Describe your role here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#           Cum sociis natoque penatibus et magnis dis parturient montes,
+#           nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#           pellentesque eu, pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
+
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+projects:
+    title: Projects
+    intro: 
+    assignments:
+      - title: "Quantum MASALA"
+        link: "https://github.com/qtm-iisc/QuantumMASALA"
+        tagline: "Quantum MAterialS Ab initio eLectronic-structure pAckage, is an electronic structure calculation package written in pure Python, with the aim of enhancing the rate of advancements in this field by reducing the time to implement new methods."
+
+      - title:  "Wilson Coefficient Bounds"
+        link: "#"
+        tagline: "Tested the bounds imposed on Wilson coefficients due to crossing symmetry of scattering amplitudes and studied Feynman blocks in the context of ϕ4 theory, through analytical calculations."
+
+      - title: "Modified Newtonian Gravity: Explaining observations of sub- and super-Chandrasekhar limiting mass white dwarfs"
+        link: "#"
+        tagline: "Studied effective modifications to Newtonian gravity and the resulting critical mass of white dwarfs to explain the observations of sub- and super-Chandrasekhar mass white dwarfs and their instabilities as sources of peculiar Type-Ia supernovae."
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: "Quantum MASALA"
+#         link: "#"
+#         tagline: "An electronic structure calculation package written in pure Python, with the aim of enhancing the rate of advancements in this field by reducing the time to implement new methods."
+
+
+publications:
+    title: Publications
+    intro: 
+    papers:
+      - title:  "Modified Newtonian Gravity: Explaining observations of sub- and super-Chandrasekhar limiting mass white dwarfs."
+        link: "https://doi.org/10.48550/arXiv.2105.01702"
+        authors: Agrim Sharma and Banibrata Mukhopadhyay
+        conference: "Scientific Voyage 2 (No. 1) (2021) 20-28"
+
+      - title: "Quantum MASALA: Quantum MAterialS Ab initio eLectronic-structure pAckage"
+        link: "https://doi.org/10.48550/arXiv.2308.07277"
+        authors: Shri Hari Soundararaj, Agrim Sharma, and Manish Jain
+        conference:  "arXiv:2308.07277 (2023)"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    # toolset:
+    #   - name: Python with scientific libraries
+    #     level: 80%
+
+    #   - name: 
+    #     level: 98%
+
+
+# footer: Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
